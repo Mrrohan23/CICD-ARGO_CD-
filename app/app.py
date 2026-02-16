@@ -5,7 +5,7 @@ app = Flask(__name__)
 def hello():
     return "Hello DevOps CI/CD update ngroksss!"
 @app.route("/app")
-def hello():
+def hello1():
     return "Sonarscan"
 
 if __name__ == "__main__":
