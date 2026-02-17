@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello Argocd"
+    return "Full setup argocd"
 @app.route("/app")
 def hello1():
     return "Sonarscan"
