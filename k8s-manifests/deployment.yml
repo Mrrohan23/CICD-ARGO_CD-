@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: python-container
-        image: mrrohan23/python-app:1-4f3ba8a
+        image: mrrohan23/python-app:2-2452858
         ports:
          - containerPort: 5000
         imagePullPolicy: Always
