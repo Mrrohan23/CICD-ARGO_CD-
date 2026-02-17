@@ -1,4 +1,4 @@
-apiVersion: app/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: python-app
@@ -9,8 +9,8 @@ spec:
   replicas: 2
 
   selector:
-    matchlabels:
-     app: python-app
+    matchLabels:
+      app: python-app
   
   template:
     metadata:
@@ -22,5 +22,4 @@ spec:
         image: mrrohan23/python-app:26-f7e2313
         ports:
          - containerPort: 5000
-        
-        imagePullpolicy: Always
+        imagePullPolicy: Always
